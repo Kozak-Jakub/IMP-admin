@@ -19,7 +19,6 @@ export default function AdminLoginPage() {
     setIsLoading(true);
 
     try {
-      // Add your authentication logic here
       router.push("/dashboard");
     } catch (error) {
       console.error("Login failed:", error);
